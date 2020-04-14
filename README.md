@@ -1,1 +1,1 @@
-# wildfly_01
+# maven-archetype-webapp 
