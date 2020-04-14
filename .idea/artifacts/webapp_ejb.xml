@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="webapp_ejb">
+    <output-path>$PROJECT_DIR$/out/artifacts/webapp_ejb</output-path>
+    <root id="archive" name="webapp_ejb.war" />
+  </artifact>
+</component>

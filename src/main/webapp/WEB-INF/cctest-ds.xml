@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<datasources schemaLocation="https://docs.jboss.org/ironjacamar/schema/datasources_1_1.xsd">
+    <datasource jndi-name="java:jboss/cctestDS" pool-name="PostgresSqlPool">
+        <connection-url>jdbc:postgresql://localhost/cctest</connection-url>
+        <driver>postgresql-42.2.11.jar</driver>
+        <driver-class>org.postgresql.Driver</driver-class>
+        <pool>
+            <max-pool-size>30</max-pool-size>
+        </pool>
+        <security>
+            <user-name>cctest</user-name>
+            <password>1234</password>
+        </security>
+        <validation>
+            <check-valid-connection-sql>select 1</check-valid-connection-sql>
+        </validation>
+    </datasource>
+</datasources>
+
